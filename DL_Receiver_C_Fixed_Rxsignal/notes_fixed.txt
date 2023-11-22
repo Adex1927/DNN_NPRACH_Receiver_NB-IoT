@@ -1,0 +1,2 @@
+Run command:
+gcc dl_nprach_head.h load_data.c UAD_PRM0_CVA12.c util.c dl_functions.c activations.c main.c -lm
