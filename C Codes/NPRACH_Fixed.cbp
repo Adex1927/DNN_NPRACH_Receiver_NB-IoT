@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="NPRACH_Fixed" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/NPRACH_Fixed" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/NPRACH_Fixed" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Mat_operations_Fixed.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NB_Datatypes.h" />
+		<Unit filename="NB_UL_FFT.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NB_UL_FFT.h" />
+		<Unit filename="NB_UL_FFT2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NPRACH_Config_Fixed.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NPRACH_DETECTOR_Fixed.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NPRACH_DETECTOR_PRM0_Fixed.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NPRACH_Fixed.h" />
+		<Unit filename="freqHops.txt" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
