@@ -1,0 +1,7 @@
+1. scale rxDataMat_Err_UAD_norm to 2^15.
+2. weights and biases scaleed by 2^15.
+3. 16 bit reg for numbers. 32 bit temp reg for multiplication. Division by 2^15 is required.
+4. 
+
+Run command:
+gcc dl_nprach_head.h load_data.c UAD_PRM0_CVA12.c util.c dl_functions.c activations.c main.c -lm
